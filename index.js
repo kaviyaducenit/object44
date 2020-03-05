@@ -92,3 +92,20 @@ obj.setcollege('skct');
 college=obj.getcollege();
 console.log('college',college);
 /*----------------------------------------------------------------*/
+function person(id){
+  let id =id;
+  this.name='hi';
+  this.getid=function()
+  {
+    return _id;
+  }
+  this.setid=function(id)
+  {
+    _id=id;
+  }
+  
+
+}
+const person=new person('10');
+person.setid(2);
+console.log(person.getid())
