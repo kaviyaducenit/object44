@@ -1,3 +1,4 @@
+//object creation with braces
 const obj=
 {
   id:1,
@@ -90,3 +91,4 @@ console.log('college:',college);
 obj.setcollege('skct');
 college=obj.getcollege();
 console.log('college',college);
+/*----------------------------------------------------------------*/
